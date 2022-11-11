@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
+import HeaderComponent from "./components/components/general-header/header.component";
 import {createBrowserRouter, Outlet, RouterProvider, Navigate, Routes, Route} from "react-router-dom";
-import FirstPage from './components/components/main-page/main-page';
-import HeaderComponent from './components/components/general-header/header.component';
 import {SecondComponent} from "./components/components/review-module";
+import FirstPage from "./components/components/main-page/main-page";
 
 const router = createBrowserRouter([
     {

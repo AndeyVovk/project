@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import {AiOutlinePlusSquare} from "react-icons/ai";
 import "./header.component.scss"
-import {AddStackModal} from "../../../src/components/modal-components/add-stack/add-stack-modal.component";
-import {AddModuleModal} from "../../../src/components/modal-components/add-module-modal.component";
+import {AddModuleModal} from "../../modal-components/add-module-modal.component";
+import {AddStackModal} from "../../modal-components/add-stack/add-stack-modal.component";
 
 function HeaderComponent(): ReactElement {
     const [show, setShow] = useState(false) as any;

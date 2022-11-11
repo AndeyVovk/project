@@ -1,4 +1,4 @@
-import { Stack } from "../Interface/interface"
+import {Stack} from "../Interface/interface";
 
 export enum General {
     module = 'module'
